@@ -1,0 +1,418 @@
+[
+  {
+    "description": "  Narrative: When user lands into the open weather map webpage then he should be able to get the current weather and forecast of a desired city.",
+    "elements": [
+      {
+        "id": "open_weather_map_home_page;verify-user-is-able-to-see-all-the-important-information-and-navigation-links",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "verify user is able to see all the important information and navigation links",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 436923
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user is on the home page of open weather map",
+            "result": {
+              "status": "passed",
+              "duration": 5682845648
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user is able to see the navigation links Weather,Maps,Guide,API,Price,Partners,Stations,Widgets,Blog",
+            "result": {
+              "status": "passed",
+              "duration": 269872378
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Home_Page_Steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user is able to see the Sign In and Sign Up links",
+            "result": {
+              "status": "passed",
+              "duration": 100231630
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Home_Page_Steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user is able to see the export Button",
+            "result": {
+              "status": "passed",
+              "duration": 51907607
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Home_Page_Steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user is able to see the temperature conversion units °C,°F",
+            "result": {
+              "status": "passed",
+              "duration": 100377271
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Home_Page_Steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 620307
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "open_weather_map_home_page;verify-user-is-able-to-convert-the-temperature-from-celsius-to-farheneit",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "verify user is able to convert the temperature from celsius to farheneit",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 187487
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user is on the home page of open weather map",
+            "result": {
+              "status": "passed",
+              "duration": 4139792181
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user clicks on farheneit button",
+            "result": {
+              "status": "passed",
+              "duration": 4615115298
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Home_Page_Steps.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "temperature should be displayed in farheneit",
+            "result": {
+              "status": "passed",
+              "duration": 84347348
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Home_Page_Steps.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 178872
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "open_weather_map_home_page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Open_Weather_Map_Home_Page",
+    "tags": [],
+    "uri": "C:\\workspace\\test-case-study-prudential\\features\\Home_Page.feature"
+  },
+  {
+    "description": "Narrative: When user lands into the open weather map webpage then he should be able to get the current weather and forecast of a desired city.",
+    "elements": [
+      {
+        "id": "open_weather_map_get_city_weather;verify-user-is-able-to-get-the-weather-information-of-searched-city",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "verify user is able to get the weather information of searched city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 136615
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user is on the home page of open weather map",
+            "result": {
+              "status": "passed",
+              "duration": 4703925409
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user enter the valid city name Bangalore,IN into the search box",
+            "result": {
+              "status": "passed",
+              "duration": 200593722
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "clicks on the search button",
+            "result": {
+              "status": "passed",
+              "duration": 3374067489
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "city name comma separated with country Bangalore,IN should be displayed in the searched results",
+            "result": {
+              "status": "passed",
+              "duration": 76365413
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "today's temperature 30.6°С should be displayed along with range from min to max temperature 29 to 31.7 °С",
+            "result": {
+              "status": "failed",
+              "duration": 112576636,
+              "error_message": "AssertionError: Today's temperature is not displayed correctly in search result: expected '28.8°С' to equal '30.6°С'\n    at C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:41:109\n    at ManagedPromise.invokeCallback_ (C:\\workspace\\test-case-study-prudential\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\workspace\\test-case-study-prudential\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\workspace\\test-case-study-prudential\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\workspace\\test-case-study-prudential\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\workspace\\test-case-study-prudential\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "wind speed 4.6 m/s should be displayed",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "clouds percentage 40 % should be displayed along with hectopascal measurment 1017 hpa",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "geo co-ordinates [12.9762, 77.6033] should be displayed",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 328614
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "open_weather_map_get_city_weather;verify-error-msg-is-displayed-on-entering-invalid-city",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "verify error msg is displayed on entering invalid city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 150974
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user is on the home page of open weather map",
+            "result": {
+              "status": "passed",
+              "duration": 4109200231
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user enter the invalid city name xyz into the search box",
+            "result": {
+              "status": "passed",
+              "duration": 119736419
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:71"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "clicks on the search button",
+            "result": {
+              "status": "passed",
+              "duration": 6861102177
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "error msg Not found should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 96092971
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\step_definitions\\Search_City_Weather_Steps.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 208000
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\workspace\\test-case-study-prudential\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "open_weather_map_get_city_weather",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Open_Weather_Map_Get_City_Weather",
+    "tags": [],
+    "uri": "C:\\workspace\\test-case-study-prudential\\features\\Search_City_Weather.feature"
+  }
+]
