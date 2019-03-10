@@ -29,3 +29,6 @@ grunt
 grunt
 
 Once all the tests are executed you can check the html reports in reports folder
+
+Note:
+In case of additional Time i would have added more test cases for the automation. Also i would have done the framework configuration enhancement like taking screenshots for the failure steps or adding logger for easy debugging.
